@@ -1,0 +1,27 @@
+# Jupyter Notebook environment
+jupyter
+
+# Data manipulation and processing
+pandas
+numpy
+
+# Visualization (optional, if any notebooks include visual output)
+matplotlib
+
+# API clients for different LLMs
+openai  # OpenAI Python client
+anthropic  # Replace with actual Anthropic client package name if available
+mistral  # Replace with actual Mistral client package name if available
+
+# For semantic search and embedding retrieval
+faiss-cpu  # or faiss-gpu if using GPU support for similarity search
+scikit-learn  # for vector operations and cosine similarity
+transformers  # if using Hugging Face transformers for embeddings
+
+# Additional utilities
+tqdm  # for progress bars
+requests  # for handling HTTP requests
+python-dotenv  # for managing environment variables, e.g., API keys
+
+# Custom GitHub repository
+-e git+https://github.com/simonpierreboucher/llm_flow_notebook.git#egg=llm_flow_notebook
